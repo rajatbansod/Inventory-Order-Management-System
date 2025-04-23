@@ -29,7 +29,6 @@
 
 # 📁 Directory Structure
 
-    ```bash
     ├── backend/
     │   ├── server.py              # Main Flask server
     │   ├── sql_connection.py      # DB connection setup
