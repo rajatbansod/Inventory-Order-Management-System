@@ -1,7 +1,7 @@
 # Inventory-Order-Management-System
 🛍️ Simple Inventory &amp; Order Management System A lightweight web application for managing products, units of measure, and customer orders. Built with HTML, CSS, JavaScript (jQuery), and integrated with a Flask backend via RESTful APIs.
-
-📺 This project follows the instructional series from the Codebasics YouTube channel
+     
+    📺 This project follows the instructional series from the Codebasics YouTube channel
 
 # 🚀 Features
 
@@ -27,4 +27,34 @@
 - Add new UOMs dynamically
 - Available in product management modal
 
+# 📁 Directory Structure
 
+    ```bash
+    ├── backend/
+    │   ├── server.py              # Main Flask server
+    │   ├── sql_connection.py      # DB connection setup
+    │   ├── products_dao.py        # Product DB operations
+    │   ├── orders_dao.py          # Order DB operations
+    │   └── uom_dao.py             # UOM DB operations
+    │
+    ├── frontend/
+    │   ├── index.html             # Dashboard interface
+    │   ├── manage-product.html    # Product management UI
+    │   ├── order.html             # Order creation form
+    │   ├── js/
+    │   │   ├── common.js
+    │   │   ├── dashboard.js
+    │   │   ├── manage-product.js
+    │   │   └── order.js
+    │   └── css/
+    │       ├── bootstrap.min.css
+    │       ├── custom.css
+    │       ├── sidebar-menu.css
+    │       └── style.css
+
+# ⚙️ Setup Guide
+
+1. Clone the Repository
+    
+       git clone https://github.com/yourusername/grocery-store-management-system.git
+       cd grocery-store-management-system
